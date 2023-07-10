@@ -1,0 +1,73 @@
+@media only screen and (max-width: 800px){
+    .vdo-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+    .humburger{
+        display: none;
+
+    }
+    .youtube-logo{
+        width: 65px;
+    }
+    .youtube-icon{
+        display: none;
+    }
+    .header{
+        display: flex;
+        flex-direction: row;
+    }
+    .right-side{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        gap: 7px;
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+    .middle-side{
+        flex: 2;
+        margin-left: 0;
+        margin-right: 5px;
+    }
+    .left-side{
+        flex: 0.5;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .notification-icon{
+        
+        margin-left: 10px;
+    }
+    .dev-pic{
+        margin-left: 10px;
+    }
+         
+    .search-icon-btn{
+       width: 40px;
+    }
+    .sidebar{
+        display: none;
+    }
+    body{
+        padding-left: 24px;
+    }
+    .humburger{
+        margin: 0;
+    }
+    .footer{
+        border-top: 1px solid rgb(230, 227, 227);
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        background-color: white;
+        display: flex; 
+        left: 0;
+    }
+    .sidebar-link{
+        flex: 1;
+    }
+
+
+}
